@@ -1,6 +1,6 @@
 {
  "augur": {
-  "as_of": "2026-09-21T02:50:28+00:00",
+  "as_of": "2026-09-21T03:50:59+00:00",
   "exported_lanes": [
    "weather",
    "econ"
@@ -70,35 +70,245 @@
   "web_questions_this_month": 3
  },
  "bookie": {
-  "as_of": "2026-09-21T03:05:08+00:00",
-  "datasets": 1,
-  "forecast_rules": 0,
-  "forecast_study": [],
+  "as_of": "2026-09-21T04:09:00+00:00",
+  "datasets": 3,
+  "forecast_rules": 1,
+  "forecast_study": [
+   {
+    "bets": null,
+    "dataset": "crypto-daily",
+    "edge": null,
+    "events": null,
+    "p": null,
+    "passes": false,
+    "reason": "no forecasts at /srv/handoff/augur/crypto-daily.nbs2.jsonl. A rule ending :nbs2 bets on Augur's nbs2 probabilities for crypto-daily, and there are none to read. Nothing was tested and nothing was spent.",
+    "rule": "no:50-98@+2h~5^15:nbs2",
+    "status": "refused"
+   },
+   {
+    "bets": null,
+    "dataset": "crypto-daily",
+    "edge": null,
+    "events": null,
+    "p": null,
+    "passes": false,
+    "reason": "no forecasts at /srv/handoff/augur/crypto-daily.nbs2.jsonl. A rule ending :nbs2 bets on Augur's nbs2 probabilities for crypto-daily, and there are none to read. Nothing was tested and nothing was spent.",
+    "rule": "no:50-98@+8h~3^8:nbs2",
+    "status": "refused"
+   },
+   {
+    "bets": null,
+    "dataset": "crypto-daily",
+    "edge": null,
+    "events": null,
+    "p": null,
+    "passes": false,
+    "reason": "no forecasts at /srv/handoff/augur/crypto-daily.nbs2.jsonl. A rule ending :nbs2 bets on Augur's nbs2 probabilities for crypto-daily, and there are none to read. Nothing was tested and nothing was spent.",
+    "rule": "no:50-98@+8h~5^15:nbs2",
+    "status": "refused"
+   },
+   {
+    "bets": null,
+    "dataset": "econ",
+    "edge": null,
+    "events": null,
+    "p": null,
+    "passes": false,
+    "reason": "no forecasts at /srv/handoff/augur/econ.nbs2.jsonl. A rule ending :nbs2 bets on Augur's nbs2 probabilities for econ, and there are none to read. Nothing was tested and nothing was spent.",
+    "rule": "no:50-98@+2h~5^15:nbs2",
+    "status": "refused"
+   },
+   {
+    "bets": null,
+    "dataset": "econ",
+    "edge": null,
+    "events": null,
+    "p": null,
+    "passes": false,
+    "reason": "no forecasts at /srv/handoff/augur/econ.nbs2.jsonl. A rule ending :nbs2 bets on Augur's nbs2 probabilities for econ, and there are none to read. Nothing was tested and nothing was spent.",
+    "rule": "no:50-98@+8h~3^8:nbs2",
+    "status": "refused"
+   },
+   {
+    "bets": null,
+    "dataset": "econ",
+    "edge": null,
+    "events": null,
+    "p": null,
+    "passes": false,
+    "reason": "no forecasts at /srv/handoff/augur/econ.nbs2.jsonl. A rule ending :nbs2 bets on Augur's nbs2 probabilities for econ, and there are none to read. Nothing was tested and nothing was spent.",
+    "rule": "no:50-98@+8h~5^15:nbs2",
+    "status": "refused"
+   },
+   {
+    "bets": null,
+    "dataset": "index-daily",
+    "edge": null,
+    "events": null,
+    "p": null,
+    "passes": false,
+    "reason": "no forecasts at /srv/handoff/augur/index-daily.nbs2.jsonl. A rule ending :nbs2 bets on Augur's nbs2 probabilities for index-daily, and there are none to read. Nothing was tested and nothing was spent.",
+    "rule": "no:50-98@+2h~5^15:nbs2",
+    "status": "refused"
+   },
+   {
+    "bets": null,
+    "dataset": "index-daily",
+    "edge": null,
+    "events": null,
+    "p": null,
+    "passes": false,
+    "reason": "no forecasts at /srv/handoff/augur/index-daily.nbs2.jsonl. A rule ending :nbs2 bets on Augur's nbs2 probabilities for index-daily, and there are none to read. Nothing was tested and nothing was spent.",
+    "rule": "no:50-98@+8h~3^8:nbs2",
+    "status": "refused"
+   },
+   {
+    "bets": null,
+    "dataset": "index-daily",
+    "edge": null,
+    "events": null,
+    "p": null,
+    "passes": false,
+    "reason": "no forecasts at /srv/handoff/augur/index-daily.nbs2.jsonl. A rule ending :nbs2 bets on Augur's nbs2 probabilities for index-daily, and there are none to read. Nothing was tested and nothing was spent.",
+    "rule": "no:50-98@+8h~5^15:nbs2",
+    "status": "refused"
+   },
+   {
+    "bets": null,
+    "dataset": "sports-games",
+    "edge": null,
+    "events": null,
+    "p": null,
+    "passes": false,
+    "reason": "no forecasts at /srv/handoff/augur/sports-games.nbs2.jsonl. A rule ending :nbs2 bets on Augur's nbs2 probabilities for sports-games, and there are none to read. Nothing was tested and nothing was spent.",
+    "rule": "no:50-98@+2h~5^15:nbs2",
+    "status": "refused"
+   },
+   {
+    "bets": null,
+    "dataset": "sports-games",
+    "edge": null,
+    "events": null,
+    "p": null,
+    "passes": false,
+    "reason": "no forecasts at /srv/handoff/augur/sports-games.nbs2.jsonl. A rule ending :nbs2 bets on Augur's nbs2 probabilities for sports-games, and there are none to read. Nothing was tested and nothing was spent.",
+    "rule": "no:50-98@+8h~3^8:nbs2",
+    "status": "refused"
+   },
+   {
+    "bets": null,
+    "dataset": "sports-games",
+    "edge": null,
+    "events": null,
+    "p": null,
+    "passes": false,
+    "reason": "no forecasts at /srv/handoff/augur/sports-games.nbs2.jsonl. A rule ending :nbs2 bets on Augur's nbs2 probabilities for sports-games, and there are none to read. Nothing was tested and nothing was spent.",
+    "rule": "no:50-98@+8h~5^15:nbs2",
+    "status": "refused"
+   },
+   {
+    "bets": null,
+    "dataset": "weather-high",
+    "edge": null,
+    "events": null,
+    "p": null,
+    "passes": false,
+    "reason": "384 held-out event(s) at about 74\u00a2 could only detect an edge above +12.6% a bet at 11 rule(s)  5 dataset(s) = 55 trial(s). Nothing was tested and nothing was spent.",
+    "rule": "no:50-98@+2h~5^15:nbs2",
+    "status": "refused"
+   },
+   {
+    "bets": 912,
+    "dataset": "weather-high",
+    "edge": -0.02878,
+    "events": 614,
+    "p": 0.214844,
+    "passes": false,
+    "reason": "loses -2.9% a bet after fees (p=0.215). The fee is doing what the fee does.",
+    "rule": "no:50-98@+8h~3^8:nbs2",
+    "status": "tested"
+   },
+   {
+    "bets": null,
+    "dataset": "weather-high",
+    "edge": null,
+    "events": null,
+    "p": null,
+    "passes": false,
+    "reason": "455 held-out event(s) at about 74\u00a2 could only detect an edge above +11.6% a bet at 11 rule(s)  5 dataset(s) = 55 trial(s). Nothing was tested and nothing was spent.",
+    "rule": "no:50-98@+8h~5^15:nbs2",
+    "status": "refused"
+   }
+  ],
   "held_out": [
    {
-    "alpha": 0.01,
-    "dataset": "weather-high",
-    "edge": -0.0255,
-    "events": 960,
+    "alpha": 0.00833333,
+    "dataset": "crypto-daily",
+    "edge": 0.05895,
+    "events": 201,
     "forecast": false,
-    "p": 0.080653,
+    "p": 1.7e-05,
+    "rule": "yes:85-95@+24h",
+    "survives": true,
+    "trials": 6
+   },
+   {
+    "alpha": 0.01666667,
+    "dataset": "sports-games",
+    "edge": -0.11365,
+    "events": 200,
+    "forecast": false,
+    "p": 9.9e-05,
+    "rule": "yes:85-95@+24h",
+    "survives": false,
+    "trials": 3
+   },
+   {
+    "alpha": 0.00833333,
+    "dataset": "weather-high",
+    "edge": -0.02516,
+    "events": 961,
+    "forecast": false,
+    "p": 0.084482,
     "rule": "no:75-85@+24h",
     "survives": false,
-    "trials": 5
+    "trials": 6
    },
    {
-    "alpha": 0.01,
+    "alpha": 0.00833333,
     "dataset": "weather-high",
-    "edge": -0.0277,
-    "events": 662,
+    "edge": -0.02353,
+    "events": 663,
     "forecast": false,
-    "p": 0.114273,
+    "p": 0.176376,
     "rule": "no:75-85@+24h~5",
     "survives": false,
-    "trials": 5
+    "trials": 6
    },
    {
-    "alpha": 0.01,
+    "alpha": 0.00833333,
+    "dataset": "weather-high",
+    "edge": -0.02878,
+    "events": 614,
+    "forecast": true,
+    "p": 0.214844,
+    "rule": "no:50-98@+8h~3^8:nbs2",
+    "survives": false,
+    "trials": 6
+   },
+   {
+    "alpha": 0.0125,
+    "dataset": "crypto-daily",
+    "edge": 0.01086,
+    "events": 205,
+    "forecast": false,
+    "p": 0.592385,
+    "rule": "no:85-95@+24h",
+    "survives": false,
+    "trials": 4
+   },
+   {
+    "alpha": 0.00277778,
     "dataset": "weather-high",
     "edge": -0.01124,
     "events": 125,
@@ -106,45 +316,45 @@
     "p": 0.702367,
     "rule": "yes:85-95@+24h",
     "survives": false,
-    "trials": 5
+    "trials": 18
    },
    {
-    "alpha": 0.01,
+    "alpha": 0.00833333,
     "dataset": "weather-high",
-    "edge": 0.00209,
-    "events": 1038,
+    "edge": 0.00198,
+    "events": 1041,
     "forecast": false,
-    "p": 0.814857,
+    "p": 0.823878,
     "rule": "no:85-95@+24h~5",
     "survives": false,
-    "trials": 5
+    "trials": 6
    },
    {
-    "alpha": 0.01,
+    "alpha": 0.00416667,
     "dataset": "weather-high",
-    "edge": -0.00028,
-    "events": 1422,
+    "edge": -0.0003,
+    "events": 1425,
     "forecast": false,
-    "p": 0.970682,
+    "p": 0.968224,
     "rule": "no:85-95@+24h",
     "survives": false,
-    "trials": 5
+    "trials": 12
    }
   ],
   "live_fills": 0,
   "live_orders": 0,
   "nearest": {
-   "alpha": 0.01,
-   "dataset": "weather-high",
-   "edge": 0.00209,
-   "p": 0.814857,
-   "rule": "no:85-95@+24h~5"
+   "alpha": 0.0125,
+   "dataset": "crypto-daily",
+   "edge": 0.01086,
+   "p": 0.592385,
+   "rule": "no:85-95@+24h"
   },
-  "rules": 5,
-  "survivors": 0
+  "rules": 9,
+  "survivors": 1
  },
  "problems": [],
- "published_at": "2026-09-21T03:12:56+00:00",
+ "published_at": "2026-09-21T04:12:42+00:00",
  "version": 1,
  "warden": {
   "as_of": "2026-09-21T01:29:28+00:00",
