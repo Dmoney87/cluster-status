@@ -1,6 +1,6 @@
 {
  "augur": {
-  "as_of": "2026-09-21T03:50:59+00:00",
+  "as_of": "2026-09-21T07:50:34+00:00",
   "exported_lanes": [
    "weather",
    "econ"
@@ -70,7 +70,7 @@
   "web_questions_this_month": 3
  },
  "bookie": {
-  "as_of": "2026-09-21T04:09:00+00:00",
+  "as_of": "2026-09-21T08:05:44+00:00",
   "datasets": 3,
   "forecast_rules": 1,
   "forecast_study": [
@@ -243,6 +243,17 @@
   "held_out": [
    {
     "alpha": 0.00833333,
+    "dataset": "sports-games",
+    "edge": -0.27249,
+    "events": 182,
+    "forecast": false,
+    "p": 0.0,
+    "rule": "no:85-95@+24h",
+    "survives": false,
+    "trials": 6
+   },
+   {
+    "alpha": 0.00833333,
     "dataset": "crypto-daily",
     "edge": 0.05895,
     "events": 201,
@@ -253,7 +264,7 @@
     "trials": 6
    },
    {
-    "alpha": 0.01666667,
+    "alpha": 0.00833333,
     "dataset": "sports-games",
     "edge": -0.11365,
     "events": 200,
@@ -261,7 +272,7 @@
     "p": 9.9e-05,
     "rule": "yes:85-95@+24h",
     "survives": false,
-    "trials": 3
+    "trials": 6
    },
    {
     "alpha": 0.00833333,
@@ -297,7 +308,7 @@
     "trials": 6
    },
    {
-    "alpha": 0.0125,
+    "alpha": 0.00833333,
     "dataset": "crypto-daily",
     "edge": 0.01086,
     "events": 205,
@@ -305,7 +316,7 @@
     "p": 0.592385,
     "rule": "no:85-95@+24h",
     "survives": false,
-    "trials": 4
+    "trials": 6
    },
    {
     "alpha": 0.00277778,
@@ -330,7 +341,7 @@
     "trials": 6
    },
    {
-    "alpha": 0.00416667,
+    "alpha": 0.00277778,
     "dataset": "weather-high",
     "edge": -0.0003,
     "events": 1425,
@@ -338,23 +349,23 @@
     "p": 0.968224,
     "rule": "no:85-95@+24h",
     "survives": false,
-    "trials": 12
+    "trials": 18
    }
   ],
   "live_fills": 0,
   "live_orders": 0,
   "nearest": {
-   "alpha": 0.0125,
+   "alpha": 0.00833333,
    "dataset": "crypto-daily",
    "edge": 0.01086,
    "p": 0.592385,
    "rule": "no:85-95@+24h"
   },
-  "rules": 9,
+  "rules": 10,
   "survivors": 1
  },
  "problems": [],
- "published_at": "2026-09-21T04:12:42+00:00",
+ "published_at": "2026-09-21T08:12:21+00:00",
  "version": 1,
  "warden": {
   "as_of": "2026-09-21T01:29:28+00:00",
