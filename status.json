@@ -1,1 +1,84 @@
-{"version": 1, "published_at": "2026-09-21T00:00:00+00:00", "problems": ["beacon has not published yet"]}
+{
+ "augur": {
+  "as_of": "2026-09-21T02:36:54+00:00",
+  "exported_lanes": [
+   "weather",
+   "econ"
+  ],
+  "lanes": [
+   {
+    "forecasts": 10876,
+    "lane": "econ",
+    "method": "cpi1",
+    "newest": 1789084800,
+    "tickers": 387
+   },
+   {
+    "forecasts": 3,
+    "lane": "llm",
+    "method": "llm1",
+    "newest": 1789957278,
+    "tickers": 3
+   },
+   {
+    "forecasts": 178426,
+    "lane": "weather",
+    "method": "nbs1",
+    "newest": 1789958201,
+    "tickers": 39122
+   },
+   {
+    "forecasts": 178426,
+    "lane": "weather",
+    "method": "nbs2",
+    "newest": 1789958201,
+    "tickers": 39122
+   }
+  ],
+  "scores": [
+   {
+    "brier": 0.08742,
+    "brier_market": null,
+    "brier_quoted": null,
+    "contracts": 387,
+    "events": 45,
+    "lane": "econ",
+    "method": "cpi1",
+    "quoted": 0
+   },
+   {
+    "brier": 0.11882,
+    "brier_market": null,
+    "brier_quoted": null,
+    "contracts": 39036,
+    "events": 6537,
+    "lane": "weather",
+    "method": "nbs1",
+    "quoted": 0
+   },
+   {
+    "brier": 0.11665,
+    "brier_market": null,
+    "brier_quoted": null,
+    "contracts": 39036,
+    "events": 6537,
+    "lane": "weather",
+    "method": "nbs2",
+    "quoted": 0
+   }
+  ],
+  "web_questions_this_month": 3
+ },
+ "problems": [
+  "bookie: no status yet"
+ ],
+ "published_at": "2026-09-21T02:36:54+00:00",
+ "version": 1,
+ "warden": {
+  "as_of": "2026-09-21T01:29:28+00:00",
+  "checked": 60,
+  "lanes_ok": true,
+  "trade_date": "2026-09-21",
+  "vetoes": []
+ }
+}
