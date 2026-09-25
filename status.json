@@ -1,6 +1,6 @@
 {
  "augur": {
-  "as_of": "2026-09-25T08:51:34+00:00",
+  "as_of": "2026-09-25T14:50:34+00:00",
   "exported_lanes": [
    "weather",
    "econ"
@@ -28,18 +28,18 @@
     "tickers": 6
    },
    {
-    "forecasts": 179140,
+    "forecasts": 179182,
     "lane": "weather",
     "method": "nbs1",
-    "newest": 1790326281,
-    "tickers": 39290
+    "newest": 1790347821,
+    "tickers": 39332
    },
    {
-    "forecasts": 179140,
+    "forecasts": 179182,
     "lane": "weather",
     "method": "nbs2",
-    "newest": 1790326281,
-    "tickers": 39290
+    "newest": 1790347821,
+    "tickers": 39332
    }
   ],
   "scores": [
@@ -77,7 +77,7 @@
   "web_questions_this_month": 9
  },
  "bookie": {
-  "as_of": "2026-09-25T09:05:34+00:00",
+  "as_of": "2026-09-25T15:05:44+00:00",
   "datasets": 3,
   "forecast_rules": 1,
   "forecast_study": [
@@ -372,7 +372,7 @@
   "survivors": 1
  },
  "problems": [],
- "published_at": "2026-09-25T09:13:21+00:00",
+ "published_at": "2026-09-25T15:12:42+00:00",
  "version": 1,
  "warden": {
   "as_of": "2026-09-24T13:31:26+00:00",
