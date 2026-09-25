@@ -1,6 +1,6 @@
 {
  "augur": {
-  "as_of": "2026-09-25T02:50:33+00:00",
+  "as_of": "2026-09-25T07:51:33+00:00",
   "exported_lanes": [
    "weather",
    "econ"
@@ -77,7 +77,7 @@
   "web_questions_this_month": 9
  },
  "bookie": {
-  "as_of": "2026-09-25T03:05:44+00:00",
+  "as_of": "2026-09-25T08:05:23+00:00",
   "datasets": 3,
   "forecast_rules": 1,
   "forecast_study": [
@@ -220,18 +220,18 @@
     "events": null,
     "p": null,
     "passes": false,
-    "reason": "385 held-out event(s) at about 74\u00a2 could only detect an edge above +12.4% a bet at 11 rule(s)  4 dataset(s) = 44 trial(s). Nothing was tested and nothing was spent.",
+    "reason": "386 held-out event(s) at about 74\u00a2 could only detect an edge above +12.4% a bet at 11 rule(s)  4 dataset(s) = 44 trial(s). Nothing was tested and nothing was spent.",
     "rule": "no:50-98@+2h~5^15:nbs2",
     "status": "refused"
    },
    {
-    "bets": 910,
+    "bets": 911,
     "dataset": "weather-high",
-    "edge": -0.035194,
-    "events": 615,
-    "p": 0.13207,
+    "edge": -0.038752,
+    "events": 617,
+    "p": 0.097735,
     "passes": false,
-    "reason": "loses -3.5% a bet after fees (p=0.132). The fee is doing what the fee does.",
+    "reason": "loses -3.9% a bet after fees (p=0.098). The fee is doing what the fee does.",
     "rule": "no:50-98@+8h~3^8:nbs2",
     "status": "tested"
    },
@@ -242,7 +242,7 @@
     "events": null,
     "p": null,
     "passes": false,
-    "reason": "455 held-out event(s) at about 74\u00a2 could only detect an edge above +11.4% a bet at 11 rule(s)  4 dataset(s) = 44 trial(s). Nothing was tested and nothing was spent.",
+    "reason": "456 held-out event(s) at about 74\u00a2 could only detect an edge above +11.4% a bet at 11 rule(s)  4 dataset(s) = 44 trial(s). Nothing was tested and nothing was spent.",
     "rule": "no:50-98@+8h~5^15:nbs2",
     "status": "refused"
    }
@@ -273,10 +273,10 @@
    {
     "alpha": 0.00833333,
     "dataset": "crypto-daily",
-    "edge": 0.05331,
+    "edge": 0.05343,
     "events": 202,
     "forecast": false,
-    "p": 0.000265,
+    "p": 0.000257,
     "rule": "yes:85-95@+24h",
     "survives": true,
     "trials": 6
@@ -284,10 +284,10 @@
    {
     "alpha": 0.00833333,
     "dataset": "weather-high",
-    "edge": -0.02712,
-    "events": 964,
+    "edge": -0.02667,
+    "events": 966,
     "forecast": false,
-    "p": 0.062911,
+    "p": 0.066916,
     "rule": "no:75-85@+24h",
     "survives": false,
     "trials": 6
@@ -295,10 +295,10 @@
    {
     "alpha": 0.00833333,
     "dataset": "weather-high",
-    "edge": -0.02934,
-    "events": 666,
+    "edge": -0.02997,
+    "events": 667,
     "forecast": false,
-    "p": 0.093882,
+    "p": 0.08667,
     "rule": "no:75-85@+24h~5",
     "survives": false,
     "trials": 6
@@ -306,10 +306,10 @@
    {
     "alpha": 0.00833333,
     "dataset": "weather-high",
-    "edge": -0.03519,
-    "events": 615,
+    "edge": -0.03875,
+    "events": 617,
     "forecast": true,
-    "p": 0.13207,
+    "p": 0.097735,
     "rule": "no:50-98@+8h~3^8:nbs2",
     "survives": false,
     "trials": 6
@@ -317,10 +317,10 @@
    {
     "alpha": 0.00833333,
     "dataset": "crypto-daily",
-    "edge": 0.01102,
+    "edge": 0.01095,
     "events": 206,
     "forecast": false,
-    "p": 0.585226,
+    "p": 0.587306,
     "rule": "no:85-95@+24h",
     "survives": false,
     "trials": 6
@@ -339,10 +339,10 @@
    {
     "alpha": 0.00277778,
     "dataset": "weather-high",
-    "edge": 0.00269,
-    "events": 1429,
+    "edge": 0.00159,
+    "events": 1430,
     "forecast": false,
-    "p": 0.720494,
+    "p": 0.833008,
     "rule": "no:85-95@+24h",
     "survives": false,
     "trials": 18
@@ -350,10 +350,10 @@
    {
     "alpha": 0.00833333,
     "dataset": "weather-high",
-    "edge": 0.00185,
-    "events": 1045,
+    "edge": 0.00039,
+    "events": 1046,
     "forecast": false,
-    "p": 0.834887,
+    "p": 0.965291,
     "rule": "no:85-95@+24h~5",
     "survives": false,
     "trials": 6
@@ -364,15 +364,15 @@
   "nearest": {
    "alpha": 0.00833333,
    "dataset": "crypto-daily",
-   "edge": 0.01102,
-   "p": 0.585226,
+   "edge": 0.01095,
+   "p": 0.587306,
    "rule": "no:85-95@+24h"
   },
   "rules": 10,
   "survivors": 1
  },
  "problems": [],
- "published_at": "2026-09-25T03:12:42+00:00",
+ "published_at": "2026-09-25T08:12:00+00:00",
  "version": 1,
  "warden": {
   "as_of": "2026-09-24T13:31:26+00:00",
