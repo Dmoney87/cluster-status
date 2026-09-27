@@ -1,6 +1,6 @@
 {
  "augur": {
-  "as_of": "2026-09-27T06:50:38+00:00",
+  "as_of": "2026-09-27T07:51:17+00:00",
   "exported_lanes": [
    "weather",
    "econ"
@@ -87,7 +87,7 @@
   "web_questions_this_month": 13
  },
  "bookie": {
-  "as_of": "2026-09-27T07:05:07+00:00",
+  "as_of": "2026-09-27T08:06:07+00:00",
   "datasets": 3,
   "forecast_rules": 1,
   "forecast_study": [
@@ -230,18 +230,18 @@
     "events": null,
     "p": null,
     "passes": false,
-    "reason": "388 held-out event(s) at about 74\u00a2 could only detect an edge above +12.3% a bet at 11 rule(s)  4 dataset(s) = 44 trial(s). Nothing was tested and nothing was spent.",
+    "reason": "388 held-out event(s) at about 74\u00a2 could only detect an edge above +12.1% a bet at 11 rule(s)  3 dataset(s) = 33 trial(s). Nothing was tested and nothing was spent.",
     "rule": "no:50-98@+2h~5^15:nbs2",
     "status": "refused"
    },
    {
-    "bets": 912,
+    "bets": 915,
     "dataset": "weather-high",
-    "edge": -0.04325,
-    "events": 618,
-    "p": 0.06522,
+    "edge": -0.047273,
+    "events": 620,
+    "p": 0.044057,
     "passes": false,
-    "reason": "loses -4.3% a bet after fees (p=0.065). The fee is doing what the fee does.",
+    "reason": "loses -4.7% a bet after fees (p=0.044). The fee is doing what the fee does.",
     "rule": "no:50-98@+8h~3^8:nbs2",
     "status": "tested"
    },
@@ -252,7 +252,7 @@
     "events": null,
     "p": null,
     "passes": false,
-    "reason": "458 held-out event(s) at about 74\u00a2 could only detect an edge above +11.3% a bet at 11 rule(s)  4 dataset(s) = 44 trial(s). Nothing was tested and nothing was spent.",
+    "reason": "460 held-out event(s) at about 74\u00a2 could only detect an edge above +11.1% a bet at 11 rule(s)  3 dataset(s) = 33 trial(s). Nothing was tested and nothing was spent.",
     "rule": "no:50-98@+8h~5^15:nbs2",
     "status": "refused"
    }
@@ -261,8 +261,8 @@
    {
     "alpha": 0.00833333,
     "dataset": "sports-games",
-    "edge": -0.27249,
-    "events": 182,
+    "edge": -0.31284,
+    "events": 199,
     "forecast": false,
     "p": 0.0,
     "rule": "no:85-95@+24h",
@@ -272,10 +272,10 @@
    {
     "alpha": 0.00833333,
     "dataset": "sports-games",
-    "edge": -0.11761,
-    "events": 201,
+    "edge": -0.15573,
+    "events": 214,
     "forecast": false,
-    "p": 6.3e-05,
+    "p": 0.0,
     "rule": "yes:85-95@+24h",
     "survives": false,
     "trials": 6
@@ -294,10 +294,10 @@
    {
     "alpha": 0.00833333,
     "dataset": "weather-high",
-    "edge": -0.04325,
-    "events": 618,
+    "edge": -0.04727,
+    "events": 620,
     "forecast": true,
-    "p": 0.06522,
+    "p": 0.044057,
     "rule": "no:50-98@+8h~3^8:nbs2",
     "survives": false,
     "trials": 6
@@ -305,10 +305,10 @@
    {
     "alpha": 0.00833333,
     "dataset": "weather-high",
-    "edge": -0.02605,
-    "events": 966,
+    "edge": -0.02547,
+    "events": 968,
     "forecast": false,
-    "p": 0.073425,
+    "p": 0.07966,
     "rule": "no:75-85@+24h",
     "survives": false,
     "trials": 6
@@ -316,10 +316,10 @@
    {
     "alpha": 0.00833333,
     "dataset": "weather-high",
-    "edge": -0.02695,
-    "events": 668,
+    "edge": -0.02726,
+    "events": 669,
     "forecast": false,
-    "p": 0.121695,
+    "p": 0.117236,
     "rule": "no:75-85@+24h~5",
     "survives": false,
     "trials": 6
@@ -327,10 +327,10 @@
    {
     "alpha": 0.00833333,
     "dataset": "crypto-daily",
-    "edge": 0.01145,
+    "edge": 0.01128,
     "events": 207,
     "forecast": false,
-    "p": 0.5688,
+    "p": 0.57445,
     "rule": "no:85-95@+24h",
     "survives": false,
     "trials": 6
@@ -347,26 +347,26 @@
     "trials": 18
    },
    {
-    "alpha": 0.00277778,
-    "dataset": "weather-high",
-    "edge": 0.00138,
-    "events": 1432,
-    "forecast": false,
-    "p": 0.855775,
-    "rule": "no:85-95@+24h",
-    "survives": false,
-    "trials": 18
-   },
-   {
     "alpha": 0.00833333,
     "dataset": "weather-high",
-    "edge": -0.00039,
-    "events": 1048,
+    "edge": -0.00126,
+    "events": 1050,
     "forecast": false,
-    "p": 0.965588,
+    "p": 0.88887,
     "rule": "no:85-95@+24h~5",
     "survives": false,
     "trials": 6
+   },
+   {
+    "alpha": 0.00277778,
+    "dataset": "weather-high",
+    "edge": 0.0008,
+    "events": 1434,
+    "forecast": false,
+    "p": 0.916209,
+    "rule": "no:85-95@+24h",
+    "survives": false,
+    "trials": 18
    }
   ],
   "live_fills": 0,
@@ -374,15 +374,15 @@
   "nearest": {
    "alpha": 0.00833333,
    "dataset": "crypto-daily",
-   "edge": 0.01145,
-   "p": 0.5688,
+   "edge": 0.01128,
+   "p": 0.57445,
    "rule": "no:85-95@+24h"
   },
   "rules": 10,
   "survivors": 1
  },
  "pit": {
-  "as_of": "2026-09-27T07:09:30+00:00",
+  "as_of": "2026-09-27T07:26:11+00:00",
   "funding_capture_edge": -0.00661,
   "held_out": [
    {
@@ -1165,7 +1165,7 @@
   "windows": 347
  },
  "problems": [],
- "published_at": "2026-09-27T07:13:05+00:00",
+ "published_at": "2026-09-27T08:12:05+00:00",
  "version": 1,
  "warden": {
   "as_of": "2026-09-24T13:31:26+00:00",
