@@ -1,6 +1,6 @@
 {
  "augur": {
-  "as_of": "2026-09-28T08:50:58+00:00",
+  "as_of": "2026-09-28T13:50:17+00:00",
   "exported_lanes": [
    "weather",
    "econ"
@@ -87,7 +87,7 @@
   "web_questions_this_month": 14
  },
  "bookie": {
-  "as_of": "2026-09-28T09:05:28+00:00",
+  "as_of": "2026-09-28T14:06:07+00:00",
   "datasets": 3,
   "forecast_rules": 1,
   "forecast_study": [
@@ -382,7 +382,7 @@
   "survivors": 1
  },
  "pit": {
-  "as_of": "2026-09-28T07:29:11+00:00",
+  "as_of": "2026-09-28T12:16:31+00:00",
   "funding_capture_edge": -0.00641,
   "held_out": [
    {
@@ -1165,19 +1165,13 @@
   "windows": 350
  },
  "problems": [],
- "published_at": "2026-09-28T09:13:05+00:00",
+ "published_at": "2026-09-28T14:13:05+00:00",
  "version": 1,
  "warden": {
-  "as_of": "2026-09-24T13:31:26+00:00",
+  "as_of": "2026-09-28T13:31:10+00:00",
   "checked": 60,
   "lanes_ok": true,
-  "trade_date": "2026-09-24",
-  "vetoes": [
-   {
-    "lane": "earnings",
-    "reason": "reports earnings 2026-09-24, after the close",
-    "symbol": "COST"
-   }
-  ]
+  "trade_date": "2026-09-28",
+  "vetoes": []
  }
 }
