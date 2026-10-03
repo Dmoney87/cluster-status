@@ -1,23 +1,23 @@
 {
  "augur": {
-  "as_of": "2026-10-03T14:51:25+00:00",
+  "as_of": "2026-10-03T15:51:33+00:00",
   "exported_lanes": [
    "weather",
    "econ"
   ],
   "lanes": [
    {
-    "forecasts": 10890,
+    "forecasts": 10916,
     "lane": "econ",
     "method": "cpi1",
-    "newest": 1790436810,
-    "tickers": 401
+    "newest": 1791041468,
+    "tickers": 413
    },
    {
-    "forecasts": 132,
+    "forecasts": 143,
     "lane": "econ",
     "method": "zq1",
-    "newest": 1790955170,
+    "newest": 1791041468,
     "tickers": 11
    },
    {
@@ -54,40 +54,40 @@
     "quoted": 0
    },
    {
-    "brier": 0.14687,
-    "brier_market": 0.14542,
-    "brier_quoted": 0.14687,
-    "contracts": 6,
-    "events": 3,
+    "brier": 0.118,
+    "brier_market": 0.11765,
+    "brier_quoted": 0.118,
+    "contracts": 8,
+    "events": 4,
     "lane": "llm",
     "method": "llm1",
-    "quoted": 6
+    "quoted": 8
    },
    {
-    "brier": 0.11886,
-    "brier_market": 0.11417,
-    "brier_quoted": 0.14208,
-    "contracts": 39540,
-    "events": 6621,
+    "brier": 0.11888,
+    "brier_market": 0.11219,
+    "brier_quoted": 0.14237,
+    "contracts": 39582,
+    "events": 6628,
     "lane": "weather",
     "method": "nbs1",
-    "quoted": 399
+    "quoted": 438
    },
    {
-    "brier": 0.1167,
-    "brier_market": 0.11417,
-    "brier_quoted": 0.13889,
-    "contracts": 39540,
-    "events": 6621,
+    "brier": 0.11672,
+    "brier_market": 0.11219,
+    "brier_quoted": 0.14013,
+    "contracts": 39582,
+    "events": 6628,
     "lane": "weather",
     "method": "nbs2",
-    "quoted": 399
+    "quoted": 438
    }
   ],
   "web_questions_this_month": 0
  },
  "bookie": {
-  "as_of": "2026-10-03T15:05:28+00:00",
+  "as_of": "2026-10-03T16:05:28+00:00",
   "datasets": 3,
   "forecast_rules": 1,
   "forecast_study": [
@@ -1165,7 +1165,7 @@
   "windows": 365
  },
  "problems": [],
- "published_at": "2026-10-03T15:13:05+00:00",
+ "published_at": "2026-10-03T16:13:05+00:00",
  "version": 1,
  "warden": {
   "as_of": "2026-10-02T13:31:10+00:00",
