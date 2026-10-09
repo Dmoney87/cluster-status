@@ -1,6 +1,6 @@
 {
  "augur": {
-  "as_of": "2026-10-09T14:50:44+00:00",
+  "as_of": "2026-10-09T15:51:30+00:00",
   "exported_lanes": [
    "weather",
    "econ"
@@ -14,10 +14,10 @@
     "tickers": 413
    },
    {
-    "forecasts": 198,
+    "forecasts": 209,
     "lane": "econ",
     "method": "zq1",
-    "newest": 1791473649,
+    "newest": 1791559929,
     "tickers": 11
    },
    {
@@ -64,30 +64,30 @@
     "quoted": 9
    },
    {
-    "brier": 0.11893,
-    "brier_market": 0.11359,
-    "brier_quoted": 0.14694,
-    "contracts": 39792,
-    "events": 6663,
+    "brier": 0.11894,
+    "brier_market": 0.11169,
+    "brier_quoted": 0.14736,
+    "contracts": 39834,
+    "events": 6670,
     "lane": "weather",
     "method": "nbs1",
-    "quoted": 608
+    "quoted": 643
    },
    {
-    "brier": 0.11674,
-    "brier_market": 0.11359,
-    "brier_quoted": 0.14205,
-    "contracts": 39792,
-    "events": 6663,
+    "brier": 0.11675,
+    "brier_market": 0.11169,
+    "brier_quoted": 0.14288,
+    "contracts": 39834,
+    "events": 6670,
     "lane": "weather",
     "method": "nbs2",
-    "quoted": 608
+    "quoted": 643
    }
   ],
   "web_questions_this_month": 5
  },
  "bookie": {
-  "as_of": "2026-10-09T15:05:18+00:00",
+  "as_of": "2026-10-09T16:05:38+00:00",
   "datasets": 3,
   "forecast_rules": 1,
   "forecast_study": [
@@ -1165,7 +1165,7 @@
   "windows": 383
  },
  "problems": [],
- "published_at": "2026-10-09T15:12:56+00:00",
+ "published_at": "2026-10-09T16:12:26+00:00",
  "version": 1,
  "warden": {
   "as_of": "2026-10-09T13:30:30+00:00",
