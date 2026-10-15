@@ -1,6 +1,6 @@
 {
  "augur": {
-  "as_of": "2026-10-15T08:51:33+00:00",
+  "as_of": "2026-10-15T13:51:00+00:00",
   "exported_lanes": [
    "weather",
    "econ"
@@ -87,7 +87,7 @@
   "web_questions_this_month": 10
  },
  "bookie": {
-  "as_of": "2026-10-15T09:06:14+00:00",
+  "as_of": "2026-10-15T14:05:36+00:00",
   "datasets": 3,
   "forecast_rules": 1,
   "forecast_study": [
@@ -382,7 +382,7 @@
   "survivors": 1
  },
  "pit": {
-  "as_of": "2026-10-15T07:27:21+00:00",
+  "as_of": "2026-10-15T12:15:43+00:00",
   "funding_capture_edge": -0.00037,
   "held_out": [
    {
@@ -1176,19 +1176,13 @@
   "windows": 401
  },
  "problems": [],
- "published_at": "2026-10-15T09:13:13+00:00",
+ "published_at": "2026-10-15T14:13:13+00:00",
  "version": 1,
  "warden": {
-  "as_of": "2026-10-14T13:31:26+00:00",
+  "as_of": "2026-10-15T13:31:07+00:00",
   "checked": 60,
   "lanes_ok": true,
-  "trade_date": "2026-10-14",
-  "vetoes": [
-   {
-    "lane": "earnings",
-    "reason": "reports earnings 2026-10-14, before the open",
-    "symbol": "BAC"
-   }
-  ]
+  "trade_date": "2026-10-15",
+  "vetoes": []
  }
 }
