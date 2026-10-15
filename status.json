@@ -1,6 +1,6 @@
 {
  "augur": {
-  "as_of": "2026-10-15T15:51:37+00:00",
+  "as_of": "2026-10-15T19:51:38+00:00",
   "exported_lanes": [
    "weather",
    "econ"
@@ -87,7 +87,7 @@
   "web_questions_this_month": 10
  },
  "bookie": {
-  "as_of": "2026-10-15T16:05:14+00:00",
+  "as_of": "2026-10-15T20:05:14+00:00",
   "datasets": 3,
   "forecast_rules": 1,
   "forecast_study": [
@@ -370,7 +370,7 @@
    }
   ],
   "live_fills": 0,
-  "live_orders": 36,
+  "live_orders": 37,
   "nearest": {
    "alpha": 0.00833333,
    "dataset": "crypto-daily",
@@ -1176,7 +1176,7 @@
   "windows": 401
  },
  "problems": [],
- "published_at": "2026-10-15T16:12:35+00:00",
+ "published_at": "2026-10-15T20:12:13+00:00",
  "version": 1,
  "warden": {
   "as_of": "2026-10-15T13:31:07+00:00",
