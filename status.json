@@ -1,23 +1,23 @@
 {
  "augur": {
-  "as_of": "2026-10-17T14:50:38+00:00",
+  "as_of": "2026-10-17T15:51:32+00:00",
   "exported_lanes": [
    "weather",
    "econ"
   ],
   "lanes": [
    {
-    "forecasts": 10942,
+    "forecasts": 10954,
     "lane": "econ",
     "method": "cpi1",
-    "newest": 1791646457,
+    "newest": 1792251077,
     "tickers": 413
    },
    {
-    "forecasts": 286,
+    "forecasts": 297,
     "lane": "econ",
     "method": "zq1",
-    "newest": 1792164728,
+    "newest": 1792251077,
     "tickers": 11
    },
    {
@@ -54,40 +54,40 @@
     "quoted": 6
    },
    {
-    "brier": 0.09372,
-    "brier_market": 0.09682,
-    "brier_quoted": 0.09372,
-    "contracts": 11,
-    "events": 6,
+    "brier": 0.11218,
+    "brier_market": 0.1179,
+    "brier_quoted": 0.11218,
+    "contracts": 13,
+    "events": 7,
     "lane": "llm",
     "method": "llm1",
-    "quoted": 11
+    "quoted": 13
    },
    {
-    "brier": 0.11892,
-    "brier_market": 0.10961,
-    "brier_quoted": 0.14861,
-    "contracts": 40128,
-    "events": 6719,
+    "brier": 0.11891,
+    "brier_market": 0.10879,
+    "brier_quoted": 0.14896,
+    "contracts": 40170,
+    "events": 6726,
     "lane": "weather",
     "method": "nbs1",
-    "quoted": 864
+    "quoted": 887
    },
    {
-    "brier": 0.11672,
-    "brier_market": 0.10961,
-    "brier_quoted": 0.14389,
-    "contracts": 40128,
-    "events": 6719,
+    "brier": 0.1167,
+    "brier_market": 0.10879,
+    "brier_quoted": 0.14423,
+    "contracts": 40170,
+    "events": 6726,
     "lane": "weather",
     "method": "nbs2",
-    "quoted": 864
+    "quoted": 887
    }
   ],
   "web_questions_this_month": 11
  },
  "bookie": {
-  "as_of": "2026-10-17T15:05:14+00:00",
+  "as_of": "2026-10-17T16:05:36+00:00",
   "datasets": 3,
   "forecast_rules": 1,
   "forecast_study": [
@@ -1176,7 +1176,7 @@
   "windows": 407
  },
  "problems": [],
- "published_at": "2026-10-17T15:13:13+00:00",
+ "published_at": "2026-10-17T16:13:13+00:00",
  "version": 1,
  "warden": {
   "as_of": "2026-10-15T13:31:07+00:00",
