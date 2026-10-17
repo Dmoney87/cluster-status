@@ -1,6 +1,6 @@
 {
  "augur": {
-  "as_of": "2026-10-16T20:50:38+00:00",
+  "as_of": "2026-10-17T02:51:00+00:00",
   "exported_lanes": [
    "weather",
    "econ"
@@ -87,7 +87,7 @@
   "web_questions_this_month": 11
  },
  "bookie": {
-  "as_of": "2026-10-16T21:06:14+00:00",
+  "as_of": "2026-10-17T03:05:36+00:00",
   "datasets": 3,
   "forecast_rules": 1,
   "forecast_study": [
@@ -1176,7 +1176,7 @@
   "windows": 404
  },
  "problems": [],
- "published_at": "2026-10-16T21:12:35+00:00",
+ "published_at": "2026-10-17T03:12:45+00:00",
  "version": 1,
  "warden": {
   "as_of": "2026-10-15T13:31:07+00:00",
