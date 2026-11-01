@@ -1,6 +1,6 @@
 {
  "augur": {
-  "as_of": "2026-11-01T08:51:26+00:00",
+  "as_of": "2026-11-01T15:52:09+00:00",
   "exported_lanes": [
    "weather",
    "econ"
@@ -14,10 +14,10 @@
     "tickers": 413
    },
    {
-    "forecasts": 451,
+    "forecasts": 462,
     "lane": "econ",
     "method": "zq1",
-    "newest": 1793460628,
+    "newest": 1793547039,
     "tickers": 22
    },
    {
@@ -28,18 +28,18 @@
     "tickers": 21
    },
    {
-    "forecasts": 185356,
+    "forecasts": 185398,
     "lane": "weather",
     "method": "nbs1",
-    "newest": 1793523035,
-    "tickers": 40844
+    "newest": 1793548273,
+    "tickers": 40886
    },
    {
-    "forecasts": 185356,
+    "forecasts": 185398,
     "lane": "weather",
     "method": "nbs2",
-    "newest": 1793523035,
-    "tickers": 40844
+    "newest": 1793548273,
+    "tickers": 40886
    }
   ],
   "scores": [
@@ -64,40 +64,40 @@
     "quoted": 1
    },
    {
-    "brier": 0.11515,
-    "brier_market": 0.12318,
-    "brier_quoted": 0.11515,
-    "contracts": 19,
-    "events": 9,
+    "brier": 0.1508,
+    "brier_market": 0.15662,
+    "brier_quoted": 0.1508,
+    "contracts": 20,
+    "events": 10,
     "lane": "llm",
     "method": "llm1",
-    "quoted": 19
+    "quoted": 20
    },
    {
-    "brier": 0.11895,
-    "brier_market": 0.10786,
-    "brier_quoted": 0.15181,
-    "contracts": 40758,
-    "events": 6824,
+    "brier": 0.11892,
+    "brier_market": 0.10742,
+    "brier_quoted": 0.15101,
+    "contracts": 40800,
+    "events": 6831,
     "lane": "weather",
     "method": "nbs1",
-    "quoted": 1330
+    "quoted": 1361
    },
    {
-    "brier": 0.11673,
-    "brier_market": 0.10786,
-    "brier_quoted": 0.14734,
-    "contracts": 40758,
-    "events": 6824,
+    "brier": 0.1167,
+    "brier_market": 0.10742,
+    "brier_quoted": 0.14672,
+    "contracts": 40800,
+    "events": 6831,
     "lane": "weather",
     "method": "nbs2",
-    "quoted": 1330
+    "quoted": 1361
    }
   ],
   "web_questions_this_month": 0
  },
  "bookie": {
-  "as_of": "2026-11-01T09:05:35+00:00",
+  "as_of": "2026-11-01T16:05:13+00:00",
   "datasets": 3,
   "forecast_rules": 1,
   "forecast_study": [
@@ -392,7 +392,7 @@
   "survivors": 0
  },
  "pit": {
-  "as_of": "2026-11-01T07:29:22+00:00",
+  "as_of": "2026-11-01T12:16:37+00:00",
   "funding_capture_edge": -0.00047,
   "held_out": [
    {
@@ -1186,7 +1186,7 @@
   "windows": 452
  },
  "problems": [],
- "published_at": "2026-11-01T09:13:13+00:00",
+ "published_at": "2026-11-01T16:12:35+00:00",
  "version": 1,
  "warden": {
   "as_of": "2026-10-30T13:30:40+00:00",
