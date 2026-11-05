@@ -1,6 +1,6 @@
 {
  "augur": {
-  "as_of": "2026-11-05T08:50:49+00:00",
+  "as_of": "2026-11-05T14:51:00+00:00",
   "exported_lanes": [
    "weather",
    "econ"
@@ -97,7 +97,7 @@
   "web_questions_this_month": 4
  },
  "bookie": {
-  "as_of": "2026-11-05T09:05:55+00:00",
+  "as_of": "2026-11-05T15:05:35+00:00",
   "datasets": 3,
   "forecast_rules": 1,
   "forecast_study": [
@@ -392,7 +392,7 @@
   "survivors": 0
  },
  "pit": {
-  "as_of": "2026-11-05T07:29:24+00:00",
+  "as_of": "2026-11-05T12:17:44+00:00",
   "funding_capture_edge": -0.00155,
   "held_out": [
    {
@@ -1175,13 +1175,19 @@
   "windows": 464
  },
  "problems": [],
- "published_at": "2026-11-05T09:12:41+00:00",
+ "published_at": "2026-11-05T15:12:43+00:00",
  "version": 1,
  "warden": {
-  "as_of": "2026-11-04T14:30:17+00:00",
+  "as_of": "2026-11-05T14:30:18+00:00",
   "checked": 60,
   "lanes_ok": true,
-  "trade_date": "2026-11-04",
-  "vetoes": []
+  "trade_date": "2026-11-05",
+  "vetoes": [
+   {
+    "lane": "earnings",
+    "reason": "reports earnings 2026-11-06, time not given",
+    "symbol": "BRK.B"
+   }
+  ]
  }
 }
