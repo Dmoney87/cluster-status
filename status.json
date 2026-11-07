@@ -1,23 +1,23 @@
 {
  "augur": {
-  "as_of": "2026-11-07T08:51:20+00:00",
+  "as_of": "2026-11-07T15:50:30+00:00",
   "exported_lanes": [
    "weather",
    "econ"
   ],
   "lanes": [
    {
-    "forecasts": 10978,
+    "forecasts": 10999,
     "lane": "econ",
     "method": "cpi1",
-    "newest": 1793460628,
-    "tickers": 413
+    "newest": 1794065588,
+    "tickers": 422
    },
    {
-    "forecasts": 517,
+    "forecasts": 528,
     "lane": "econ",
     "method": "zq1",
-    "newest": 1793979168,
+    "newest": 1794065588,
     "tickers": 22
    },
    {
@@ -28,18 +28,18 @@
     "tickers": 21
    },
    {
-    "forecasts": 186196,
+    "forecasts": 186238,
     "lane": "weather",
     "method": "nbs1",
-    "newest": 1794041456,
-    "tickers": 41096
+    "newest": 1794066605,
+    "tickers": 41138
    },
    {
-    "forecasts": 186196,
+    "forecasts": 186238,
     "lane": "weather",
     "method": "nbs2",
-    "newest": 1794041456,
-    "tickers": 41096
+    "newest": 1794066605,
+    "tickers": 41138
    }
   ],
   "scores": [
@@ -64,40 +64,40 @@
     "quoted": 1
    },
    {
-    "brier": 0.1508,
-    "brier_market": 0.15662,
-    "brier_quoted": 0.1508,
-    "contracts": 20,
-    "events": 10,
+    "brier": 0.1565,
+    "brier_market": 0.16037,
+    "brier_quoted": 0.1565,
+    "contracts": 21,
+    "events": 11,
     "lane": "llm",
     "method": "llm1",
-    "quoted": 20
+    "quoted": 21
    },
    {
-    "brier": 0.11893,
-    "brier_market": 0.11057,
-    "brier_quoted": 0.15204,
-    "contracts": 41004,
-    "events": 6865,
+    "brier": 0.11896,
+    "brier_market": 0.11122,
+    "brier_quoted": 0.15258,
+    "contracts": 41052,
+    "events": 6873,
     "lane": "weather",
     "method": "nbs1",
-    "quoted": 1515
+    "quoted": 1549
    },
    {
-    "brier": 0.1167,
-    "brier_market": 0.11057,
-    "brier_quoted": 0.14739,
-    "contracts": 41004,
-    "events": 6865,
+    "brier": 0.11673,
+    "brier_market": 0.11122,
+    "brier_quoted": 0.148,
+    "contracts": 41052,
+    "events": 6873,
     "lane": "weather",
     "method": "nbs2",
-    "quoted": 1515
+    "quoted": 1549
    }
   ],
   "web_questions_this_month": 4
  },
  "bookie": {
-  "as_of": "2026-11-07T09:06:13+00:00",
+  "as_of": "2026-11-07T16:05:15+00:00",
   "datasets": 3,
   "forecast_rules": 1,
   "forecast_study": [
@@ -392,7 +392,7 @@
   "survivors": 0
  },
  "pit": {
-  "as_of": "2026-11-07T07:25:58+00:00",
+  "as_of": "2026-11-07T12:17:51+00:00",
   "funding_capture_edge": -0.00203,
   "held_out": [
    {
@@ -1175,7 +1175,7 @@
   "windows": 470
  },
  "problems": [],
- "published_at": "2026-11-07T09:12:44+00:00",
+ "published_at": "2026-11-07T16:12:01+00:00",
  "version": 1,
  "warden": {
   "as_of": "2026-11-06T14:31:17+00:00",
