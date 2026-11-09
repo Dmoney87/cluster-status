@@ -1,6 +1,6 @@
 {
  "augur": {
-  "as_of": "2026-11-09T02:51:02+00:00",
+  "as_of": "2026-11-09T07:51:44+00:00",
   "exported_lanes": [
    "weather",
    "econ"
@@ -97,7 +97,7 @@
   "web_questions_this_month": 6
  },
  "bookie": {
-  "as_of": "2026-11-09T03:06:13+00:00",
+  "as_of": "2026-11-09T08:05:13+00:00",
   "datasets": 3,
   "forecast_rules": 1,
   "forecast_study": [
@@ -247,11 +247,11 @@
    {
     "bets": 982,
     "dataset": "weather-high",
-    "edge": -0.072748,
-    "events": 672,
-    "p": 0.00165,
+    "edge": -0.071974,
+    "events": 673,
+    "p": 0.001837,
     "passes": false,
-    "reason": "loses -7.3% a bet after fees (p=0.002). The fee is doing what the fee does.",
+    "reason": "loses -7.2% a bet after fees (p=0.002). The fee is doing what the fee does.",
     "rule": "no:50-98@+8h~3^8:nbs2",
     "status": "tested"
    },
@@ -271,8 +271,8 @@
    {
     "alpha": 0.00833333,
     "dataset": "sports-games",
-    "edge": -0.36365,
-    "events": 286,
+    "edge": -0.36191,
+    "events": 287,
     "forecast": false,
     "p": 0.0,
     "rule": "no:85-95@+24h",
@@ -282,8 +282,8 @@
    {
     "alpha": 0.00833333,
     "dataset": "sports-games",
-    "edge": -0.37276,
-    "events": 299,
+    "edge": -0.37107,
+    "events": 300,
     "forecast": false,
     "p": 0.0,
     "rule": "yes:85-95@+24h",
@@ -293,10 +293,10 @@
    {
     "alpha": 0.00833333,
     "dataset": "weather-high",
-    "edge": -0.07275,
-    "events": 672,
+    "edge": -0.07197,
+    "events": 673,
     "forecast": true,
-    "p": 0.00165,
+    "p": 0.001837,
     "rule": "no:50-98@+8h~3^8:nbs2",
     "survives": false,
     "trials": 6
@@ -304,10 +304,10 @@
    {
     "alpha": 0.00833333,
     "dataset": "crypto-daily",
-    "edge": 0.04037,
+    "edge": 0.03523,
     "events": 214,
     "forecast": false,
-    "p": 0.012999,
+    "p": 0.03781,
     "rule": "yes:85-95@+24h",
     "survives": false,
     "trials": 6
@@ -315,10 +315,10 @@
    {
     "alpha": 0.00833333,
     "dataset": "weather-high",
-    "edge": -0.02073,
-    "events": 1002,
+    "edge": -0.02049,
+    "events": 1003,
     "forecast": false,
-    "p": 0.145117,
+    "p": 0.149495,
     "rule": "no:75-85@+24h",
     "survives": false,
     "trials": 6
@@ -326,10 +326,10 @@
    {
     "alpha": 0.00833333,
     "dataset": "weather-high",
-    "edge": -0.02451,
-    "events": 704,
+    "edge": -0.02416,
+    "events": 705,
     "forecast": false,
-    "p": 0.150032,
+    "p": 0.1554,
     "rule": "no:75-85@+24h~5",
     "survives": false,
     "trials": 6
@@ -359,10 +359,10 @@
    {
     "alpha": 0.00277778,
     "dataset": "weather-high",
-    "edge": 0.00264,
-    "events": 1487,
+    "edge": 0.00258,
+    "events": 1488,
     "forecast": false,
-    "p": 0.721513,
+    "p": 0.728098,
     "rule": "no:85-95@+24h",
     "survives": false,
     "trials": 18
@@ -370,10 +370,10 @@
    {
     "alpha": 0.00833333,
     "dataset": "weather-high",
-    "edge": -0.00266,
-    "events": 1102,
+    "edge": -0.00257,
+    "events": 1104,
     "forecast": false,
-    "p": 0.765033,
+    "p": 0.772186,
     "rule": "no:85-95@+24h~5",
     "survives": false,
     "trials": 6
@@ -384,29 +384,17 @@
   "nearest": {
    "alpha": 0.00833333,
    "dataset": "crypto-daily",
-   "edge": 0.04037,
-   "p": 0.012999,
+   "edge": 0.03523,
+   "p": 0.03781,
    "rule": "yes:85-95@+24h"
   },
   "rules": 10,
   "survivors": 0
  },
  "pit": {
-  "as_of": "2026-11-08T20:17:51+00:00",
-  "funding_capture_edge": -0.00232,
+  "as_of": "2026-11-09T07:29:01+00:00",
+  "funding_capture_edge": -0.00217,
   "held_out": [
-   {
-    "alpha": 2.51e-05,
-    "edge": -0.00489,
-    "market": "KXADAPERP",
-    "p": 0.0,
-    "rule": "fund:3:1",
-    "survives": false,
-    "thin": true,
-    "trades": 3,
-    "trials": 1992,
-    "wins": 0
-   },
    {
     "alpha": 2.51e-05,
     "edge": -0.02781,
@@ -433,13 +421,13 @@
    },
    {
     "alpha": 8.87e-06,
-    "edge": -0.00877,
+    "edge": -0.0092,
     "market": "KXBTCPERP",
     "p": 0.0,
     "rule": "mom:3",
     "survives": false,
     "thin": true,
-    "trades": 20,
+    "trades": 21,
     "trials": 5637,
     "wins": 3
    },
@@ -465,18 +453,6 @@
     "thin": true,
     "trades": 7,
     "trials": 5637,
-    "wins": 0
-   },
-   {
-    "alpha": 2.51e-05,
-    "edge": -0.08284,
-    "market": "KXNEARPERP",
-    "p": 0.0,
-    "rule": "fund:2:3",
-    "survives": false,
-    "thin": true,
-    "trades": 8,
-    "trials": 1992,
     "wins": 0
    },
    {
@@ -516,18 +492,6 @@
     "wins": 0
    },
    {
-    "alpha": 2.51e-05,
-    "edge": -0.02679,
-    "market": "KXUNIPERP",
-    "p": 0.0,
-    "rule": "fund:3:3",
-    "survives": false,
-    "thin": true,
-    "trades": 2,
-    "trials": 1992,
-    "wins": 0
-   },
-   {
     "alpha": 8.87e-06,
     "edge": 0.00708,
     "market": "KXUSTECH100PERP",
@@ -564,40 +528,16 @@
     "wins": 0
    },
    {
-    "alpha": 8.87e-06,
-    "edge": 0.04086,
-    "market": "KXUNIPERP",
-    "p": 2e-06,
-    "rule": "mrev:9",
-    "survives": false,
-    "thin": true,
-    "trades": 2,
-    "trials": 5637,
-    "wins": 2
-   },
-   {
     "alpha": 2.51e-05,
-    "edge": -0.02992,
-    "market": "KXADAPERP",
-    "p": 3e-06,
-    "rule": "fund:3:9",
+    "edge": -0.07449,
+    "market": "KXNEARPERP",
+    "p": 1e-06,
+    "rule": "fund:2:3",
     "survives": false,
     "thin": true,
-    "trades": 2,
+    "trades": 9,
     "trials": 1992,
     "wins": 0
-   },
-   {
-    "alpha": 2.51e-05,
-    "edge": -0.02662,
-    "market": "KXDOGEPERP",
-    "p": 3e-06,
-    "rule": "vwap:21",
-    "survives": false,
-    "thin": true,
-    "trades": 14,
-    "trials": 1992,
-    "wins": 1
    },
    {
     "alpha": 8.87e-06,
@@ -625,6 +565,18 @@
    },
    {
     "alpha": 8.87e-06,
+    "edge": -0.01576,
+    "market": "KXXRPPERP",
+    "p": 8e-06,
+    "rule": "mom:3",
+    "survives": false,
+    "thin": true,
+    "trades": 22,
+    "trials": 5637,
+    "wins": 2
+   },
+   {
+    "alpha": 8.87e-06,
     "edge": -0.01672,
     "market": "KXHYPEPERP",
     "p": 1e-05,
@@ -637,18 +589,6 @@
    },
    {
     "alpha": 8.87e-06,
-    "edge": -0.01603,
-    "market": "KXXRPPERP",
-    "p": 1.5e-05,
-    "rule": "mom:3",
-    "survives": false,
-    "thin": true,
-    "trades": 21,
-    "trials": 5637,
-    "wins": 2
-   },
-   {
-    "alpha": 8.87e-06,
     "edge": -0.01311,
     "market": "KXKSHIBPERP",
     "p": 1.8e-05,
@@ -658,6 +598,30 @@
     "trades": 19,
     "trials": 5637,
     "wins": 2
+   },
+   {
+    "alpha": 8.87e-06,
+    "edge": -0.01398,
+    "market": "KXSOLPERP",
+    "p": 2.3e-05,
+    "rule": "mom:3",
+    "survives": false,
+    "thin": true,
+    "trades": 23,
+    "trials": 5637,
+    "wins": 3
+   },
+   {
+    "alpha": 2.51e-05,
+    "edge": -0.02537,
+    "market": "KXDOGEPERP",
+    "p": 2.6e-05,
+    "rule": "vwap:21",
+    "survives": false,
+    "thin": true,
+    "trades": 13,
+    "trials": 1992,
+    "wins": 1
    },
    {
     "alpha": 8.87e-06,
@@ -685,18 +649,6 @@
    },
    {
     "alpha": 2.51e-05,
-    "edge": -0.008,
-    "market": "KXBTCPERP",
-    "p": 3.2e-05,
-    "rule": "vwap:9",
-    "survives": false,
-    "thin": true,
-    "trades": 25,
-    "trials": 1992,
-    "wins": 5
-   },
-   {
-    "alpha": 2.51e-05,
     "edge": -0.01933,
     "market": "KXUSTECH100PERP",
     "p": 4.6e-05,
@@ -720,16 +672,16 @@
     "wins": 0
    },
    {
-    "alpha": 8.87e-06,
-    "edge": -0.01363,
-    "market": "KXSOLPERP",
-    "p": 7.1e-05,
-    "rule": "mom:3",
+    "alpha": 2.51e-05,
+    "edge": -0.01117,
+    "market": "KXKSHIBPERP",
+    "p": 8.1e-05,
+    "rule": "vwap:3",
     "survives": false,
-    "thin": true,
-    "trades": 22,
-    "trials": 5637,
-    "wins": 3
+    "thin": false,
+    "trades": 38,
+    "trials": 1992,
+    "wins": 8
    },
    {
     "alpha": 2.51e-05,
@@ -766,30 +718,6 @@
     "trades": 16,
     "trials": 5637,
     "wins": 4
-   },
-   {
-    "alpha": 2.51e-05,
-    "edge": -0.01111,
-    "market": "KXKSHIBPERP",
-    "p": 0.000135,
-    "rule": "vwap:3",
-    "survives": false,
-    "thin": false,
-    "trades": 37,
-    "trials": 1992,
-    "wins": 8
-   },
-   {
-    "alpha": 2.51e-05,
-    "edge": -0.00938,
-    "market": "KXETHPERP",
-    "p": 0.000142,
-    "rule": "vwap:9",
-    "survives": false,
-    "thin": true,
-    "trades": 22,
-    "trials": 1992,
-    "wins": 3
    },
    {
     "alpha": 8.87e-06,
@@ -829,6 +757,18 @@
    },
    {
     "alpha": 2.51e-05,
+    "edge": -0.02965,
+    "market": "KXADAPERP",
+    "p": 0.000174,
+    "rule": "fund:1:9",
+    "survives": false,
+    "thin": true,
+    "trades": 6,
+    "trials": 1992,
+    "wins": 0
+   },
+   {
+    "alpha": 2.51e-05,
     "edge": -0.03048,
     "market": "KXBCHPERP",
     "p": 0.000174,
@@ -838,6 +778,18 @@
     "trades": 3,
     "trials": 1992,
     "wins": 0
+   },
+   {
+    "alpha": 2.51e-05,
+    "edge": -0.00732,
+    "market": "KXBTCPERP",
+    "p": 0.000203,
+    "rule": "vwap:9",
+    "survives": false,
+    "thin": true,
+    "trades": 26,
+    "trials": 1992,
+    "wins": 6
    },
    {
     "alpha": 2.51e-05,
@@ -876,42 +828,6 @@
     "wins": 1
    },
    {
-    "alpha": 2.51e-05,
-    "edge": -0.02604,
-    "market": "KXADAPERP",
-    "p": 0.000281,
-    "rule": "fund:1:9",
-    "survives": false,
-    "thin": true,
-    "trades": 6,
-    "trials": 1992,
-    "wins": 0
-   },
-   {
-    "alpha": 2.51e-05,
-    "edge": -0.02079,
-    "market": "KXBNBPERP",
-    "p": 0.000442,
-    "rule": "vwap:21",
-    "survives": false,
-    "thin": true,
-    "trades": 6,
-    "trials": 1992,
-    "wins": 0
-   },
-   {
-    "alpha": 2.51e-05,
-    "edge": -0.00943,
-    "market": "KXSOLPERP",
-    "p": 0.00046,
-    "rule": "vwap:3",
-    "survives": false,
-    "thin": false,
-    "trades": 41,
-    "trials": 1992,
-    "wins": 11
-   },
-   {
     "alpha": 8.87e-06,
     "edge": -0.04416,
     "market": "KXZECPERP",
@@ -936,63 +852,63 @@
     "wins": 0
    },
    {
-    "alpha": 2.51e-05,
-    "edge": -0.02735,
-    "market": "KXUNIPERP",
-    "p": 0.000653,
-    "rule": "vwap:21",
-    "survives": false,
-    "thin": true,
-    "trades": 4,
-    "trials": 1992,
-    "wins": 0
-   },
-   {
-    "alpha": 2.51e-05,
-    "edge": -0.01241,
-    "market": "KXADAPERP",
-    "p": 0.000904,
-    "rule": "fund:1:1",
-    "survives": false,
-    "thin": true,
-    "trades": 13,
-    "trials": 1992,
-    "wins": 4
-   },
-   {
     "alpha": 8.87e-06,
-    "edge": -0.01622,
-    "market": "KXLINKPERP",
-    "p": 0.001099,
+    "edge": -0.01142,
+    "market": "KXBNBPERP",
+    "p": 0.000584,
     "rule": "mom:3",
     "survives": false,
     "thin": true,
-    "trades": 23,
+    "trades": 11,
     "trials": 5637,
-    "wins": 4
-   },
-   {
-    "alpha": 2.51e-05,
-    "edge": -0.0065,
-    "market": "KXBTCPERP",
-    "p": 0.001143,
-    "rule": "vwap:3",
-    "survives": false,
-    "thin": false,
-    "trades": 37,
-    "trials": 1992,
-    "wins": 6
+    "wins": 1
    },
    {
     "alpha": 8.87e-06,
-    "edge": -0.00862,
+    "edge": -0.01017,
     "market": "KXAAVEPERP",
-    "p": 0.001468,
+    "p": 0.000699,
     "rule": "mrev:21",
     "survives": false,
     "thin": true,
     "trades": 3,
     "trials": 5637,
+    "wins": 0
+   },
+   {
+    "alpha": 2.51e-05,
+    "edge": -0.00896,
+    "market": "KXSOLPERP",
+    "p": 0.000831,
+    "rule": "vwap:3",
+    "survives": false,
+    "thin": false,
+    "trades": 42,
+    "trials": 1992,
+    "wins": 12
+   },
+   {
+    "alpha": 2.51e-05,
+    "edge": -0.02668,
+    "market": "KXAAVEPERP",
+    "p": 0.001319,
+    "rule": "vwap:9",
+    "survives": false,
+    "thin": true,
+    "trades": 10,
+    "trials": 1992,
+    "wins": 1
+   },
+   {
+    "alpha": 2.51e-05,
+    "edge": -0.02756,
+    "market": "KXKSHIBPERP",
+    "p": 0.001538,
+    "rule": "fund:3:9",
+    "survives": false,
+    "thin": true,
+    "trades": 4,
+    "trials": 1992,
     "wins": 0
    },
    {
@@ -1033,15 +949,27 @@
    },
    {
     "alpha": 2.51e-05,
-    "edge": -0.02569,
-    "market": "KXKSHIBPERP",
-    "p": 0.001795,
-    "rule": "fund:3:9",
+    "edge": -0.01408,
+    "market": "KXADAPERP",
+    "p": 0.001717,
+    "rule": "fund:1:1",
     "survives": false,
     "thin": true,
-    "trades": 4,
+    "trades": 13,
     "trials": 1992,
-    "wins": 0
+    "wins": 4
+   },
+   {
+    "alpha": 2.51e-05,
+    "edge": -0.00602,
+    "market": "KXBTCPERP",
+    "p": 0.001945,
+    "rule": "vwap:3",
+    "survives": false,
+    "thin": false,
+    "trades": 39,
+    "trials": 1992,
+    "wins": 7
    },
    {
     "alpha": 8.87e-06,
@@ -1056,18 +984,6 @@
     "wins": 1
    },
    {
-    "alpha": 2.51e-05,
-    "edge": -0.00792,
-    "market": "KXBTCPERP",
-    "p": 0.002086,
-    "rule": "vwap:21",
-    "survives": false,
-    "thin": true,
-    "trades": 13,
-    "trials": 1992,
-    "wins": 3
-   },
-   {
     "alpha": 8.87e-06,
     "edge": -0.01674,
     "market": "KXADAPERP",
@@ -1080,50 +996,38 @@
     "wins": 1
    },
    {
-    "alpha": 2.51e-05,
-    "edge": -0.01864,
-    "market": "KXAAVEPERP",
-    "p": 0.002497,
-    "rule": "vwap:21",
-    "survives": false,
-    "thin": true,
-    "trades": 6,
-    "trials": 1992,
-    "wins": 0
-   },
-   {
-    "alpha": 2.51e-05,
-    "edge": -0.02864,
-    "market": "KXZECPERP",
-    "p": 0.002684,
-    "rule": "vwap:21",
-    "survives": false,
-    "thin": true,
-    "trades": 16,
-    "trials": 1992,
-    "wins": 2
-   },
-   {
     "alpha": 8.87e-06,
-    "edge": -0.01019,
-    "market": "KXBNBPERP",
-    "p": 0.002981,
+    "edge": -0.01537,
+    "market": "KXLINKPERP",
+    "p": 0.002704,
     "rule": "mom:3",
     "survives": false,
     "thin": true,
-    "trades": 11,
+    "trades": 22,
     "trials": 5637,
-    "wins": 1
+    "wins": 4
    },
    {
     "alpha": 2.51e-05,
-    "edge": -0.02514,
-    "market": "KXAAVEPERP",
-    "p": 0.00315,
-    "rule": "vwap:9",
+    "edge": -0.02602,
+    "market": "KXZECPERP",
+    "p": 0.002724,
+    "rule": "vwap:21",
     "survives": false,
     "thin": true,
-    "trades": 10,
+    "trades": 18,
+    "trials": 1992,
+    "wins": 3
+   },
+   {
+    "alpha": 2.51e-05,
+    "edge": -0.02289,
+    "market": "KXKSHIBPERP",
+    "p": 0.003094,
+    "rule": "fund:2:9",
+    "survives": false,
+    "thin": true,
+    "trades": 7,
     "trials": 1992,
     "wins": 1
    },
@@ -1141,18 +1045,6 @@
    },
    {
     "alpha": 2.51e-05,
-    "edge": -0.02182,
-    "market": "KXKSHIBPERP",
-    "p": 0.003564,
-    "rule": "fund:2:9",
-    "survives": false,
-    "thin": true,
-    "trades": 7,
-    "trials": 1992,
-    "wins": 1
-   },
-   {
-    "alpha": 2.51e-05,
     "edge": -0.01181,
     "market": "KXKSHIBPERP",
     "p": 0.00437,
@@ -1162,20 +1054,128 @@
     "trades": 23,
     "trials": 1992,
     "wins": 5
+   },
+   {
+    "alpha": 2.51e-05,
+    "edge": -0.01782,
+    "market": "KXAAVEPERP",
+    "p": 0.005397,
+    "rule": "vwap:21",
+    "survives": false,
+    "thin": true,
+    "trades": 6,
+    "trials": 1992,
+    "wins": 0
+   },
+   {
+    "alpha": 2.51e-05,
+    "edge": -0.02015,
+    "market": "KXKSHIBPERP",
+    "p": 0.006309,
+    "rule": "orb:21",
+    "survives": false,
+    "thin": true,
+    "trades": 5,
+    "trials": 1992,
+    "wins": 1
+   },
+   {
+    "alpha": 2.51e-05,
+    "edge": -0.0183,
+    "market": "KXXRPPERP",
+    "p": 0.006587,
+    "rule": "vwap:21",
+    "survives": false,
+    "thin": true,
+    "trades": 10,
+    "trials": 1992,
+    "wins": 1
+   },
+   {
+    "alpha": 2.51e-05,
+    "edge": -0.05591,
+    "market": "KXWLDPERP",
+    "p": 0.00712,
+    "rule": "fund:2:3",
+    "survives": false,
+    "thin": true,
+    "trades": 3,
+    "trials": 1992,
+    "wins": 0
+   },
+   {
+    "alpha": 2.51e-05,
+    "edge": 0.04969,
+    "market": "KXHYPEPERP",
+    "p": 0.007311,
+    "rule": "fund:1:9",
+    "survives": false,
+    "thin": true,
+    "trades": 4,
+    "trials": 1992,
+    "wins": 4
+   },
+   {
+    "alpha": 2.51e-05,
+    "edge": -0.04324,
+    "market": "KXNEARPERP",
+    "p": 0.007378,
+    "rule": "fund:2:1",
+    "survives": false,
+    "thin": true,
+    "trades": 9,
+    "trials": 1992,
+    "wins": 2
+   },
+   {
+    "alpha": 2.51e-05,
+    "edge": -0.01053,
+    "market": "KXXRPPERP",
+    "p": 0.007856,
+    "rule": "vwap:9",
+    "survives": false,
+    "thin": true,
+    "trades": 22,
+    "trials": 1992,
+    "wins": 3
+   },
+   {
+    "alpha": 8.87e-06,
+    "edge": -0.02445,
+    "market": "KXDOGEPERP",
+    "p": 0.00804,
+    "rule": "mom:21",
+    "survives": false,
+    "thin": true,
+    "trades": 6,
+    "trials": 5637,
+    "wins": 1
+   },
+   {
+    "alpha": 8.87e-06,
+    "edge": -0.01291,
+    "market": "KXBTCPERP",
+    "p": 0.008513,
+    "rule": "mom:21",
+    "survives": false,
+    "thin": true,
+    "trades": 4,
+    "trials": 5637,
+    "wins": 0
    }
   ],
   "live_fills": 0,
   "live_orders": 0,
   "markets": 83,
-  "max_held_out_trades": 41,
+  "max_held_out_trades": 42,
   "nearest": null,
   "rules": 24,
   "survivors": 0,
   "trials": 1992,
-  "windows": 473
+  "windows": 476
  },
  "problems": [],
- "published_at": "2026-11-09T03:12:07+00:00",
+ "published_at": "2026-11-09T08:12:32+00:00",
  "version": 1,
  "warden": {
   "as_of": "2026-11-06T14:31:17+00:00",
