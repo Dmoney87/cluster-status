@@ -1,6 +1,6 @@
 {
  "augur": {
-  "as_of": "2026-11-13T08:51:05+00:00",
+  "as_of": "2026-11-13T14:50:41+00:00",
   "exported_lanes": [
    "weather",
    "econ"
@@ -97,7 +97,7 @@
   "web_questions_this_month": 9
  },
  "bookie": {
-  "as_of": "2026-11-13T09:05:58+00:00",
+  "as_of": "2026-11-13T15:05:45+00:00",
   "datasets": 3,
   "forecast_rules": 1,
   "forecast_study": [
@@ -392,7 +392,7 @@
   "survivors": 0
  },
  "pit": {
-  "as_of": "2026-11-13T07:30:23+00:00",
+  "as_of": "2026-11-13T12:18:08+00:00",
   "funding_capture_edge": -0.0027,
   "held_out": [
    {
@@ -1175,7 +1175,7 @@
   "windows": 488
  },
  "problems": [],
- "published_at": "2026-11-13T09:12:38+00:00",
+ "published_at": "2026-11-13T15:12:43+00:00",
  "version": 1,
  "warden": {
   "as_of": "2026-11-12T14:31:19+00:00",
