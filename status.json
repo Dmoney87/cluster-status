@@ -1,23 +1,23 @@
 {
  "augur": {
-  "as_of": "2026-11-14T08:51:13+00:00",
+  "as_of": "2026-11-14T15:50:50+00:00",
   "exported_lanes": [
    "weather",
    "econ"
   ],
   "lanes": [
    {
-    "forecasts": 11017,
+    "forecasts": 11026,
     "lane": "econ",
     "method": "cpi1",
-    "newest": 1794411158,
+    "newest": 1794670448,
     "tickers": 422
    },
    {
-    "forecasts": 594,
+    "forecasts": 605,
     "lane": "econ",
     "method": "zq1",
-    "newest": 1794584042,
+    "newest": 1794670448,
     "tickers": 22
    },
    {
@@ -28,18 +28,18 @@
     "tickers": 23
    },
    {
-    "forecasts": 187372,
+    "forecasts": 187414,
     "lane": "weather",
     "method": "nbs1",
-    "newest": 1794646245,
-    "tickers": 41390
+    "newest": 1794671425,
+    "tickers": 41432
    },
    {
-    "forecasts": 187372,
+    "forecasts": 187414,
     "lane": "weather",
     "method": "nbs2",
-    "newest": 1794646245,
-    "tickers": 41390
+    "newest": 1794671425,
+    "tickers": 41432
    }
   ],
   "scores": [
@@ -64,40 +64,40 @@
     "quoted": 1
    },
    {
-    "brier": 0.1565,
-    "brier_market": 0.16037,
-    "brier_quoted": 0.1565,
-    "contracts": 21,
-    "events": 11,
+    "brier": 0.1439,
+    "brier_market": 0.14839,
+    "brier_quoted": 0.1439,
+    "contracts": 23,
+    "events": 12,
     "lane": "llm",
     "method": "llm1",
-    "quoted": 21
+    "quoted": 23
    },
    {
-    "brier": 0.11898,
-    "brier_market": 0.11271,
-    "brier_quoted": 0.15437,
-    "contracts": 41304,
-    "events": 6915,
+    "brier": 0.119,
+    "brier_market": 0.11312,
+    "brier_quoted": 0.15477,
+    "contracts": 41340,
+    "events": 6921,
     "lane": "weather",
     "method": "nbs1",
-    "quoted": 1729
+    "quoted": 1754
    },
    {
-    "brier": 0.11674,
-    "brier_market": 0.11271,
-    "brier_quoted": 0.14955,
-    "contracts": 41304,
-    "events": 6915,
+    "brier": 0.11675,
+    "brier_market": 0.11312,
+    "brier_quoted": 0.14987,
+    "contracts": 41340,
+    "events": 6921,
     "lane": "weather",
     "method": "nbs2",
-    "quoted": 1729
+    "quoted": 1754
    }
   ],
   "web_questions_this_month": 9
  },
  "bookie": {
-  "as_of": "2026-11-14T09:06:05+00:00",
+  "as_of": "2026-11-14T16:06:05+00:00",
   "datasets": 3,
   "forecast_rules": 1,
   "forecast_study": [
@@ -392,7 +392,7 @@
   "survivors": 0
  },
  "pit": {
-  "as_of": "2026-11-14T07:28:49+00:00",
+  "as_of": "2026-11-14T12:17:44+00:00",
   "funding_capture_edge": -0.00256,
   "held_out": [
    {
@@ -1175,7 +1175,7 @@
   "windows": 491
  },
  "problems": [],
- "published_at": "2026-11-14T09:12:41+00:00",
+ "published_at": "2026-11-14T16:12:02+00:00",
  "version": 1,
  "warden": {
   "as_of": "2026-11-12T14:31:19+00:00",
