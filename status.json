@@ -1,6 +1,6 @@
 {
  "augur": {
-  "as_of": "2026-11-17T14:50:50+00:00",
+  "as_of": "2026-11-17T15:50:49+00:00",
   "exported_lanes": [
    "weather",
    "econ"
@@ -14,10 +14,10 @@
     "tickers": 422
    },
    {
-    "forecasts": 627,
+    "forecasts": 638,
     "lane": "econ",
     "method": "zq1",
-    "newest": 1794843029,
+    "newest": 1794929609,
     "tickers": 22
    },
    {
@@ -28,18 +28,18 @@
     "tickers": 26
    },
    {
-    "forecasts": 187876,
+    "forecasts": 187918,
     "lane": "weather",
     "method": "nbs1",
-    "newest": 1794905404,
-    "tickers": 41516
+    "newest": 1794930625,
+    "tickers": 41558
    },
    {
-    "forecasts": 187876,
+    "forecasts": 187918,
     "lane": "weather",
     "method": "nbs2",
-    "newest": 1794905404,
-    "tickers": 41516
+    "newest": 1794930625,
+    "tickers": 41558
    }
   ],
   "scores": [
@@ -74,30 +74,30 @@
     "quoted": 23
    },
    {
-    "brier": 0.119,
-    "brier_market": 0.11429,
-    "brier_quoted": 0.15528,
-    "contracts": 41424,
-    "events": 6935,
+    "brier": 0.11898,
+    "brier_market": 0.11436,
+    "brier_quoted": 0.15505,
+    "contracts": 41466,
+    "events": 6942,
     "lane": "weather",
     "method": "nbs1",
-    "quoted": 1811
+    "quoted": 1840
    },
    {
-    "brier": 0.11674,
-    "brier_market": 0.11429,
-    "brier_quoted": 0.15028,
-    "contracts": 41424,
-    "events": 6935,
+    "brier": 0.11672,
+    "brier_market": 0.11436,
+    "brier_quoted": 0.1501,
+    "contracts": 41466,
+    "events": 6942,
     "lane": "weather",
     "method": "nbs2",
-    "quoted": 1811
+    "quoted": 1840
    }
   ],
   "web_questions_this_month": 14
  },
  "bookie": {
-  "as_of": "2026-11-17T15:06:05+00:00",
+  "as_of": "2026-11-17T16:05:22+00:00",
   "datasets": 3,
   "forecast_rules": 1,
   "forecast_study": [
@@ -1175,7 +1175,7 @@
   "windows": 500
  },
  "problems": [],
- "published_at": "2026-11-17T15:12:58+00:00",
+ "published_at": "2026-11-17T16:12:54+00:00",
  "version": 1,
  "warden": {
   "as_of": "2026-11-16T14:31:00+00:00",
