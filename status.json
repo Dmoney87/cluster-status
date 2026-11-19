@@ -1,6 +1,6 @@
 {
  "augur": {
-  "as_of": "2026-11-19T14:51:29+00:00",
+  "as_of": "2026-11-19T15:51:29+00:00",
   "exported_lanes": [
    "weather",
    "econ"
@@ -14,10 +14,10 @@
     "tickers": 422
    },
    {
-    "forecasts": 649,
+    "forecasts": 660,
     "lane": "econ",
     "method": "zq1",
-    "newest": 1795016049,
+    "newest": 1795102340,
     "tickers": 22
    },
    {
@@ -28,18 +28,18 @@
     "tickers": 27
    },
    {
-    "forecasts": 188212,
+    "forecasts": 188254,
     "lane": "weather",
     "method": "nbs1",
-    "newest": 1795081825,
-    "tickers": 41600
+    "newest": 1795103464,
+    "tickers": 41642
    },
    {
-    "forecasts": 188212,
+    "forecasts": 188254,
     "lane": "weather",
     "method": "nbs2",
-    "newest": 1795081825,
-    "tickers": 41600
+    "newest": 1795103464,
+    "tickers": 41642
    }
   ],
   "scores": [
@@ -74,30 +74,30 @@
     "quoted": 23
    },
    {
-    "brier": 0.11899,
-    "brier_market": 0.11424,
-    "brier_quoted": 0.15546,
-    "contracts": 41508,
-    "events": 6949,
+    "brier": 0.11902,
+    "brier_market": 0.11439,
+    "brier_quoted": 0.15596,
+    "contracts": 41550,
+    "events": 6956,
     "lane": "weather",
     "method": "nbs1",
-    "quoted": 1870
+    "quoted": 1902
    },
    {
-    "brier": 0.11673,
-    "brier_market": 0.11424,
-    "brier_quoted": 0.15045,
-    "contracts": 41508,
-    "events": 6949,
+    "brier": 0.11679,
+    "brier_market": 0.11439,
+    "brier_quoted": 0.15158,
+    "contracts": 41550,
+    "events": 6956,
     "lane": "weather",
     "method": "nbs2",
-    "quoted": 1870
+    "quoted": 1902
    }
   ],
   "web_questions_this_month": 18
  },
  "bookie": {
-  "as_of": "2026-11-19T15:05:05+00:00",
+  "as_of": "2026-11-19T16:05:04+00:00",
   "datasets": 3,
   "forecast_rules": 1,
   "forecast_study": [
@@ -1186,7 +1186,7 @@
   "windows": 506
  },
  "problems": [],
- "published_at": "2026-11-19T15:12:16+00:00",
+ "published_at": "2026-11-19T16:12:10+00:00",
  "version": 1,
  "warden": {
   "as_of": "2026-11-19T14:30:30+00:00",
