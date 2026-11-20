@@ -1,6 +1,6 @@
 {
  "augur": {
-  "as_of": "2026-11-20T08:50:29+00:00",
+  "as_of": "2026-11-20T14:51:29+00:00",
   "exported_lanes": [
    "weather",
    "econ"
@@ -97,7 +97,7 @@
   "web_questions_this_month": 19
  },
  "bookie": {
-  "as_of": "2026-11-20T09:06:05+00:00",
+  "as_of": "2026-11-20T15:06:04+00:00",
   "datasets": 3,
   "forecast_rules": 1,
   "forecast_study": [
@@ -392,7 +392,7 @@
   "survivors": 0
  },
  "pit": {
-  "as_of": "2026-11-20T07:30:16+00:00",
+  "as_of": "2026-11-20T12:18:50+00:00",
   "funding_capture_edge": -7e-05,
   "held_out": [
    {
@@ -1175,19 +1175,13 @@
   "windows": 509
  },
  "problems": [],
- "published_at": "2026-11-20T09:12:51+00:00",
+ "published_at": "2026-11-20T15:12:18+00:00",
  "version": 1,
  "warden": {
-  "as_of": "2026-11-19T14:30:30+00:00",
+  "as_of": "2026-11-20T14:31:07+00:00",
   "checked": 60,
   "lanes_ok": true,
-  "trade_date": "2026-11-19",
-  "vetoes": [
-   {
-    "lane": "earnings",
-    "reason": "reports earnings 2026-11-19, before the open",
-    "symbol": "WMT"
-   }
-  ]
+  "trade_date": "2026-11-20",
+  "vetoes": []
  }
 }
