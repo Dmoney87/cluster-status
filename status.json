@@ -1,6 +1,6 @@
 {
  "augur": {
-  "as_of": "2026-11-27T08:51:50+00:00",
+  "as_of": "2026-11-27T15:51:11+00:00",
   "exported_lanes": [
    "weather",
    "econ"
@@ -14,10 +14,10 @@
     "tickers": 422
    },
    {
-    "forecasts": 737,
+    "forecasts": 748,
     "lane": "econ",
     "method": "zq1",
-    "newest": 1795707089,
+    "newest": 1795793471,
     "tickers": 22
    },
    {
@@ -28,18 +28,18 @@
     "tickers": 30
    },
    {
-    "forecasts": 189556,
+    "forecasts": 189598,
     "lane": "weather",
     "method": "nbs1",
-    "newest": 1795769486,
-    "tickers": 41936
+    "newest": 1795794647,
+    "tickers": 41978
    },
    {
-    "forecasts": 189556,
+    "forecasts": 189598,
     "lane": "weather",
     "method": "nbs2",
-    "newest": 1795769486,
-    "tickers": 41936
+    "newest": 1795794647,
+    "tickers": 41978
    }
   ],
   "scores": [
@@ -74,30 +74,30 @@
     "quoted": 26
    },
    {
-    "brier": 0.11899,
-    "brier_market": 0.11555,
-    "brier_quoted": 0.15627,
-    "contracts": 41850,
-    "events": 7006,
+    "brier": 0.11901,
+    "brier_market": 0.11547,
+    "brier_quoted": 0.15657,
+    "contracts": 41892,
+    "events": 7013,
     "lane": "weather",
     "method": "nbs1",
-    "quoted": 2112
+    "quoted": 2144
    },
    {
-    "brier": 0.11677,
-    "brier_market": 0.11555,
-    "brier_quoted": 0.15233,
-    "contracts": 41850,
-    "events": 7006,
+    "brier": 0.11679,
+    "brier_market": 0.11547,
+    "brier_quoted": 0.15272,
+    "contracts": 41892,
+    "events": 7013,
     "lane": "weather",
     "method": "nbs2",
-    "quoted": 2112
+    "quoted": 2144
    }
   ],
   "web_questions_this_month": 28
  },
  "bookie": {
-  "as_of": "2026-11-27T09:05:57+00:00",
+  "as_of": "2026-11-27T16:05:26+00:00",
   "datasets": 3,
   "forecast_rules": 2,
   "forecast_study": [
@@ -403,7 +403,7 @@
   "survivors": 0
  },
  "pit": {
-  "as_of": "2026-11-27T07:28:38+00:00",
+  "as_of": "2026-11-27T12:18:40+00:00",
   "funding_capture_edge": -0.00257,
   "held_out": [
    {
@@ -1197,7 +1197,7 @@
   "windows": 530
  },
  "problems": [],
- "published_at": "2026-11-27T09:12:32+00:00",
+ "published_at": "2026-11-27T16:12:38+00:00",
  "version": 1,
  "warden": {
   "as_of": "2026-11-26T14:30:30+00:00",
