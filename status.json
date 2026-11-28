@@ -1,23 +1,23 @@
 {
  "augur": {
-  "as_of": "2026-11-28T14:51:44+00:00",
+  "as_of": "2026-11-28T15:50:53+00:00",
   "exported_lanes": [
    "weather",
    "econ"
   ],
   "lanes": [
    {
-    "forecasts": 11044,
+    "forecasts": 11053,
     "lane": "econ",
     "method": "cpi1",
-    "newest": 1795707089,
+    "newest": 1795879851,
     "tickers": 422
    },
    {
-    "forecasts": 748,
+    "forecasts": 759,
     "lane": "econ",
     "method": "zq1",
-    "newest": 1795793471,
+    "newest": 1795879851,
     "tickers": 22
    },
    {
@@ -28,18 +28,18 @@
     "tickers": 30
    },
    {
-    "forecasts": 189724,
+    "forecasts": 189766,
     "lane": "weather",
     "method": "nbs1",
-    "newest": 1795855886,
-    "tickers": 41978
+    "newest": 1795881026,
+    "tickers": 42020
    },
    {
-    "forecasts": 189724,
+    "forecasts": 189766,
     "lane": "weather",
     "method": "nbs2",
-    "newest": 1795855886,
-    "tickers": 41978
+    "newest": 1795881026,
+    "tickers": 42020
    }
   ],
   "scores": [
@@ -64,40 +64,40 @@
     "quoted": 1
    },
    {
-    "brier": 0.12833,
-    "brier_market": 0.13363,
-    "brier_quoted": 0.12833,
-    "contracts": 26,
-    "events": 14,
+    "brier": 0.12038,
+    "brier_market": 0.12575,
+    "brier_quoted": 0.12038,
+    "contracts": 29,
+    "events": 15,
     "lane": "llm",
     "method": "llm1",
-    "quoted": 26
+    "quoted": 29
    },
    {
-    "brier": 0.11901,
-    "brier_market": 0.11547,
-    "brier_quoted": 0.15657,
-    "contracts": 41892,
-    "events": 7013,
+    "brier": 0.11903,
+    "brier_market": 0.11504,
+    "brier_quoted": 0.15674,
+    "contracts": 41934,
+    "events": 7020,
     "lane": "weather",
     "method": "nbs1",
-    "quoted": 2144
+    "quoted": 2174
    },
    {
-    "brier": 0.11679,
-    "brier_market": 0.11547,
-    "brier_quoted": 0.15272,
-    "contracts": 41892,
-    "events": 7013,
+    "brier": 0.11682,
+    "brier_market": 0.11504,
+    "brier_quoted": 0.153,
+    "contracts": 41934,
+    "events": 7020,
     "lane": "weather",
     "method": "nbs2",
-    "quoted": 2144
+    "quoted": 2174
    }
   ],
   "web_questions_this_month": 28
  },
  "bookie": {
-  "as_of": "2026-11-28T15:05:27+00:00",
+  "as_of": "2026-11-28T16:05:48+00:00",
   "datasets": 3,
   "forecast_rules": 2,
   "forecast_study": [
@@ -1197,7 +1197,7 @@
   "windows": 533
  },
  "problems": [],
- "published_at": "2026-11-28T15:12:53+00:00",
+ "published_at": "2026-11-28T16:12:34+00:00",
  "version": 1,
  "warden": {
   "as_of": "2026-11-26T14:30:30+00:00",
